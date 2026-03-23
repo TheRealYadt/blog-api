@@ -1,4 +1,4 @@
-# 📝 Blog API — Node.js + Express + MySQL
+#  Blog API — Node.js + Express + MySQL
 
 API REST complète pour la gestion d'articles de blog avec documentation Swagger.
 
@@ -52,7 +52,7 @@ Ouvrir **http://localhost:3000/api/docs** dans votre navigateur.
 
 ---
 
-## 🔌 Endpoints
+##  Endpoints
 
 | Méthode | Endpoint                    | Description                        |
 |---------|-----------------------------|------------------------------------|
