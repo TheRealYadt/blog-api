@@ -4,7 +4,7 @@ API REST complète pour la gestion d'articles de blog avec documentation Swagger
 
 ---
 
-## 🚀 Installation & Démarrage
+##  Installation & Démarrage
 
 ### Prérequis
 - [Node.js](https://nodejs.org/) v18+
@@ -46,7 +46,7 @@ L'API sera accessible sur **http://localhost:3000**
 
 ---
 
-## 📚 Documentation API (Swagger)
+##  Documentation API (Swagger)
 
 Ouvrir **http://localhost:3000/api/docs** dans votre navigateur.
 
@@ -68,7 +68,7 @@ Ouvrir **http://localhost:3000/api/docs** dans votre navigateur.
 
 ---
 
-## 📋 Exemples d'utilisation
+##  Exemples d'utilisation
 
 ### Créer un article
 ```bash
@@ -181,7 +181,7 @@ curl "http://localhost:3000/api/articles/search?q=nodejs"
 
 ---
 
-## 🗂️ Structure du Projet
+##  Structure du Projet
 
 ```
 blog-api/
@@ -206,14 +206,14 @@ blog-api/
 
 ---
 
-## 📐 Structure d'un Article
+##  Structure d'un Article
 
 | Champ              | Type        | Obligatoire | Description                        |
 |--------------------|-------------|-------------|------------------------------------|
 | `id`               | integer     | Auto        | Identifiant unique auto-généré     |
-| `titre`            | string      | ✅ Oui      | Titre non vide                     |
-| `contenu`          | text        | ✅ Oui      | Corps de l'article                 |
-| `auteur`           | string      | ✅ Oui      | Nom de l'auteur                    |
+| `titre`            | string      |  Oui      | Titre non vide                     |
+| `contenu`          | text        |  Oui      | Corps de l'article                 |
+| `auteur`           | string      |  Oui      | Nom de l'auteur                    |
 | `categorie`        | string      | Non         | Défaut : "Général"                 |
 | `tags`             | array(JSON) | Non         | Liste de mots-clés                 |
 | `date_creation`    | datetime    | Auto        | Automatique à la création          |
@@ -221,7 +221,7 @@ blog-api/
 
 ---
 
-## ⚙️ Codes HTTP utilisés
+##  Codes HTTP utilisés
 
 | Code | Signification          |
 |------|------------------------|
@@ -233,7 +233,7 @@ blog-api/
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 - **Node.js** — Environnement d'exécution JavaScript
 - **Express.js** — Framework web minimaliste
